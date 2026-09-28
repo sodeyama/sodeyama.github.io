@@ -1,0 +1,11 @@
+:root { --bg: #fbfaf7; --fg: #22211f; --muted: #6b6760; --link: #1d5fb8; --code: #efece6; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1a1a19; --fg: #e8e6e1; --muted: #a09c94; --link: #7fb0f0; --code: #2a2927; }
+}
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.8 system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+main { max-width: 40rem; margin: 0 auto; padding: 3rem 16px; }
+h1 { font-size: 1.6rem; margin: 0 0 1.5rem; }
+h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+a { color: var(--link); }
+code { background: var(--code); padding: .1em .35em; border-radius: 4px; font-size: .9em; overflow-wrap: anywhere; }
+.meta { color: var(--muted); margin-top: 2.5rem; }
